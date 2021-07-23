@@ -36,7 +36,7 @@ export const Content = styled.div`
   }
 `;
 
-export const QRLogo = styled.div`
+export const LogoItem = styled.div`
   text-decoration: none;
   color: inherit;
 
