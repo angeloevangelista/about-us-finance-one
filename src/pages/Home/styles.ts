@@ -11,6 +11,19 @@ export const MainContent = styled.div`
   margin: 6rem auto 2rem auto;
 `;
 
+export const QrCodeContainer = styled.div`
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > img {
+    width: 200px;
+    border-radius: 8px;
+  }
+`;
+
 export const AuthorsContainer = styled.ul`
   margin: 4rem 1.4rem;
 

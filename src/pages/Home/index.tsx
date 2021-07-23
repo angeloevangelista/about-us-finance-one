@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiGithub, FiLinkedin } from 'react-icons/fi';
 
+import qrCodeImg from '../../assets/qrcode_about_us.png';
 import { Header } from '../../components/Header';
 
 import * as SC from './styles';
@@ -77,6 +78,10 @@ const Home: React.FC = () => {
             </li>
           ))}
         </SC.AuthorsContainer>
+
+        <SC.QrCodeContainer>
+          <img src={qrCodeImg} alt="https://about-us-tcc.vercel.app/" />
+        </SC.QrCodeContainer>
       </SC.MainContent>
     </SC.Container>
   );
